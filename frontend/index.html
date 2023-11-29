@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>JJ Translator</title>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="logo">
+        <img src="icons/translate.svg" alt="">
+        <h1><b>J.J</b> Lingua</h1>
+      </div>
+      <div class="desc">
+        <h2>Translate from</h2>
+        <h2>Translate to</h2>
+      </div>
+    </header>
+    <section>
+      <form id="form">
+        <div class="translate from">
+          <select name="" id="">
+            <option value="english" selected>English</option>
+            <option value="french">French</option>
+            <option value="chinese">Chinese(Traditional)</option>
+            <option value="korean">Korean</option>
+          </select>
+          <input type="text" placeholder="Enter text">
+        </div>
+        <button id="submit" type="submit"><img class="trans-icon" src="icons/arrow-left-right.svg" alt=""></button>
+        <div class="translate to">
+          <select name="" id="">
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="chinese" selected>Chinese(Traditional)</option>
+            <option value="korean">Korean</option>
+          </select>
+          <input type="text" placeholder="Translation">
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
